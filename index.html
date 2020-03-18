@@ -30,29 +30,37 @@
 
   <nav class="navbar navbar-expand-sm sticky-top top-colors">
     <div class="container">
-    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false">
-    	  <span class="navbar-toggler-icon"></span>
-    	</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    	<div class="collapse navbar-collapse" id="navbarcontent">
-    	  <ul class="navbar-nav mx-auto">
-    	    <li class="nav-item active">
-    	      <a class="nav-link" href="/index.html">Hem</a>
-    	    </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/results.html">Resultat</a>
+      <div class="collapse navbar-collapse" id="navbarcontent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Hem</a>
           </li>
-    	    <li class="nav-item">
-    	      <a class="nav-link" href="//monthly.sakerhetssm.se">Månadens problem</a>
-    	    </li>
-    	    <li class="nav-item">
-    	      <a class="nav-link" href="/about.html">Om</a>
-    	    </li>
-    	    <li class="nav-item">
-    	      <a class="nav-link" href="/learn.html">Läroresurser</a>
-    	    </li>
-    	  </ul>
-    	</div>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a href="#" class="text-accent-color nav-link" type="button" id="resultsDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tidigare år
+              </a>
+              <div class="dropdown-menu" aria-labelledby="resultsDropDown">
+                <a class="dropdown-item" href="/ssm2020.html">2020</a>
+                <a class="dropdown-item" href="/ssm2019.html">2019</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="//monthly.sakerhetssm.se">Månadens problem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">Om</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/learn.html">Läroresurser</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -60,30 +68,24 @@
       <div class="row">
         <div class="mx-auto col-lg-7">
         <h2 class="text-accent-color text-center">SSM 2020</h2>
-        <p class="text-color">Årets tävling är igång! Kolla på <a class="text-accent-color" target="_blank" href="https://ctf.sakerhetssm.se/scoreboard">tävlingsplattformen</a> för att se hur det går.</p>
-        <p class="text-color">Årets tävling hålls mellan 18:00, 13 mars och 20:00, 15 mars. Men du kan redan nu anmäla ditt lag. <a class="text-accent-color" target="_blank" href="https://ctf.sakerhetssm.se/register">Anmäl dig här!</a></p>
+        <p class="text-color">Årets tävling är över. Grattis till vinnarna:</p>
+        <ol class="text-color">
+          <li>wat, från S:t Eskils Gymnasium, Danderyds Gymnasium och Tullängsgymnasiet.</li>
+          <li>evr, från Tullängsgymnasiet, Kattegattgymnasiet och Älvkullegymnasiet.</li>
+          <li>DAGYCTF0x1, från Danderyds Gymnasium.</li>
+        </ol>
+        <p class="text-color">Det fullständiga resultatet finns <a class="text-accent-color" href="/ssm2020.html">här</a>.</p>
 
-        <h2 class="text-accent-color text-center">Lös första problemet redan nu!</h2>
-        <p class="text-color">Nedan kan ni testa på att lösa ett av problemen som kommer vara med i tävlingen. Det här är samma problem som finns på årets affischer. När tävlingen väl börjar kan ni skicka in flaggan från uppgiften och få poäng i tävlingen. Den här uppgiften råkar också vara vårt <a class="text-accent-color" href="https://monthly.sakerhetssm.se/">Månadens problem</a> för februari och mars. Ni kan därför redan nu skicka in lösningen och har då chans att vinna en biobiljett!</p>
+        <h2 class="text-accent-color text-center">Lös ett CTF-problem.</h2>
+        <p class="text-color">Nedan kan ni testa på att lösa ett av problemen som var med i Säkerhets-SM 2020. Tips: du letar efter en sträng på formen "SSM{...}".</p>
         <h3 class="text-accent-color">Hidden in plain sight.</h3>
         <div class="text-center"><img src="/hiddeninplainsight.png" class="img-fluid logo-heights mb-4 mt-2"></div>
 
-        <h2 class="text-accent-color text-center">Priser</h2>
-        <ul class="text-color">
-          <li>De 2 bästa lagen vinner en gemensam plats i <a class="text-accent-color" href="https://midnightsunctf.se/">Midnight Sun CTF Finalen</a>. Resa och hotell ingår. Sponsrat av Midnight Sun arrangörerna.</li> 
-          <li>De 3 bästa lagen vinner biljetter till <a class="text-accent-color" href="https://www.sec-t.org/">SEC-T</a>. Sponsrat av SEC-T arrangörerna.</li>
-          <li>De 4-6 bästa lagen vinner IT-säkerhetsböcker.</li>
-          <li>De 6 bästa lagen vinner Säkerhets-SM 2020 t-shirts.</li>
-        </ul>
-
         <h2 class="text-accent-color text-center">Vad är Säkerhets-SM?</h2>
         <p class="text-color">Säkerhets-SM är en nationell Capture The Flag tävling för gymnasiet. Tävlingen fokuserar på problemlösning inom områdena programmering, kryptografi, binär exploatering, reverse engineering, webbexploatering och forensik. Uppgifterna varierar från nybörjarvänliga till riktigt kluriga. Så även om man aldrig deltagit i en CTF förut så kan man delta. Framför allt så lär man sig mycket av att delta.</p>
-        <p class="text-color">Tävlingen sker genom en webbplattform så man kan tävla från var som helst. Man tävlar i lag om högst 3 personer. Topplagen vinner priser. Tävlingen sponsras i år av <a class="text-accent-color" href="/about.html">Knowit</a>, <a class="text-accent-color" href="/about.html">MSAB</a> och <a class="text-accent-color" href="/about.html">Vårdinnovation</a>.</p>
+        <p class="text-color">Tävlingen sker genom en webbplattform så man kan tävla från var som helst. Man tävlar i lag om högst 3 personer. Topplagen vinner priser. Tävlingen brukar vara runt mars. Tävlingen sponsras i år av <a class="text-accent-color" href="/about.html">Knowit</a>, <a class="text-accent-color" href="/about.html">MSAB</a> och <a class="text-accent-color" href="/about.html">Vårdinnovation</a>.</p>
         <p class="text-color">CTF-tävlingar (Capture The Flag) spelas oftast i två olika format. Attack och försvar eller Jeopardystil. Säkerhets-SM är är en tävling i Jeopardystil. Detta betyder att man i början av tävlingen får tillgång till en mängd problem och man visar att man har löst en uppgift genom att skicka in uppgiftens "flagga" till plattformen. Flaggor i den här tävlingen är textsträngar på formen "SSM{...}".</p>
         <p class="text-color">Gå gärna med i <a class="text-accent-color" href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a class="text-accent-color" href="https://www.facebook.com/sakerhetssm">Facebooksida</a>!</p>
-
-        <h2 class="text-accent-color text-center">Årets affisch</h2>
-        <p class="text-color">Är du lärare? Eller vill du bara sätta upp årets affisch vid din skola? <a class="text-accent-color" href="/affisch.pdf">Här kan du hitta affischen.</a></p>
      </div>
     </div>
   </div>

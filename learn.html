@@ -30,9 +30,9 @@
 
   <nav class="navbar navbar-expand-sm sticky-top top-colors">
     <div class="container">
-    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false">
-    	  <span class="navbar-toggler-icon"></span>
-    	</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarcontent">
         <ul class="navbar-nav mx-auto">
@@ -40,11 +40,19 @@
             <a class="nav-link" href="/index.html">Hem</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/results.html">Resultat</a>
+            <div class="dropdown">
+              <a href="#" class="text-accent-color nav-link" type="button" id="resultsDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tidigare år
+              </a>
+              <div class="dropdown-menu" aria-labelledby="resultsDropDown">
+                <a class="dropdown-item" href="/ssm2020.html">2020</a>
+                <a class="dropdown-item" href="/ssm2019.html">2019</a>
+              </div>
+            </div>
           </li>
-    	    <li class="nav-item">
-    	      <a class="nav-link" href="//monthly.sakerhetssm.se">Månadens problem</a>
-    	    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="//monthly.sakerhetssm.se">Månadens problem</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="/about.html">Om</a>
           </li>
