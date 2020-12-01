@@ -1,0 +1,54 @@
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link,
+.text-color {
+    color: #fff;
+}
+
+.jumbotron {
+	border-radius: 0;
+}
+
+.navbar-toggler-icon {
+	background-image: url("/hamburger.svg");
+}
+
+.top-colors {
+	background-color: #002c36;
+}
+
+.custom-body {
+	min-height: 65vh;
+	background-color: #004454;
+}
+
+.navbar-nav .nav-link,
+.text-accent-color {
+	color: #ffab1c;
+}
+
+.custom-title {
+	background-color: rgba(0,44,54, 0.4);
+}
+
+* {
+	font-family: "Consolas", Monospace; 
+}
+
+.logo-heights {
+	max-height: 150px;
+}
+
+.footer-img {
+	max-height: 100px;
+}
+
+.title-img {
+	background-image: url("/logo.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.almost-text-color {
+	color: rgba(255,255,255, 0.6);
+}
