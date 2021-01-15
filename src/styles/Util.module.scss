@@ -1,0 +1,8 @@
+.centerimg {
+  display: flex;
+  justify-content: center;
+  img {
+    max-height: 150px;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+header {
+  flex: 0 0 185px;
+  background-color: var(--header-footer-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  h1 {
+    a {
+      font-size: 40px;
+      color: var(--text-color);
+      text-decoration: none;
+    }
+  }
+}

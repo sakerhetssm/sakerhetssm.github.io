@@ -1,0 +1,20 @@
+.rank {
+  grid-column: 1 / span 1;
+}
+
+.name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  grid-column: 2 / span 1;
+}
+
+.score {
+  text-align: right;
+  grid-column: 3 / span 1;
+}
+
+.members {
+  color: var(--gray-text-color);
+  grid-column: 2 / span 1;
+}

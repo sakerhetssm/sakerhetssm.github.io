@@ -1,0 +1,44 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.area {
+  flex-grow: 1;
+  background-color: var(--bg-color);
+  
+  > main {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 15px;
+    color: var(--text-color);
+    line-height: 1.5;
+
+    a, p, h1, h2, h3, h4, ul, li {
+      margin-top: 0;
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--accent-color);
+    }
+
+    h3, h4 {
+      margin-bottom: 5px;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+      padding-top: 10px;
+      text-align: center;
+    }
+    
+    a:link, a:visited {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

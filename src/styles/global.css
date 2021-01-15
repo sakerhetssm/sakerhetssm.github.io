@@ -1,0 +1,17 @@
+:root {
+  --header-footer-color: #002c36;
+  --bg-color: #004454;
+  --accent-color: #ffab1c;
+  --text-color: #ffffff;
+  --gray-text-color: rgba(255,255,255, 0.6);
+}
+
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+* {
+	font-family: "Consolas", Monospace; 
+}

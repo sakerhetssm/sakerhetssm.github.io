@@ -1,0 +1,11 @@
+footer {
+  background-color: var(--header-footer-color);
+  display: flex;
+  flex-direction: column; 
+  a {
+    align-self: center;
+    img {
+      max-height: 100px;
+    }
+  }
+}
