@@ -5,7 +5,7 @@ const Nov2019Page = () => {
   return (
     <MonthlyLayout>
       <h1>Månadens problem - November 2019</h1>
-      <p>B🎃🎃! Spooky. <a href="/monthly/nov-2019/spooky.zip">Fil</a>.</p>
+      <p>B<span aria-label="pumpkin" role="img">🎃</span><span aria-label="pumpkin" role="img">🎃</span>! Spooky. <a href="/monthly/nov-2019/spooky.zip">Fil</a>.</p>
     </MonthlyLayout>
   )
 }
