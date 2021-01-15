@@ -15,6 +15,7 @@ const Navbar = () => {
             <li><a href="/halloween2020/">Halloween 2020</a></li>
             <li><Link activeClassName={style.active} to="/ssm2020">2020</Link></li>
             <li><Link activeClassName={style.active} to="/ssm2019">2019</Link></li>
+            <li><Link activeClassName={style.active} to="/ssm2016">2016</Link></li>
           </ul>
         </li>
         <li><a href="https://monthly.sakerhetssm.se/">Månadens problem</a></li>

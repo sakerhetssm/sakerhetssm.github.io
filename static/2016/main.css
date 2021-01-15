@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,700);
+
+body {
+  font-family: 'Source Code Pro', courier;
+  margin: 0px;
+}
+
+h1 {
+  color: #26A65B;
+  font-weight: bold;
+  font-size: 52pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+a {
+  color: #26A65B;
+}
+
+a:visited {
+  color: #006442;
+}
+
+div.info {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.logotype {
+  margin-left: auto;
+  margin-right:auto;
+  width: 800px;
+  height: 200px;
+  position: relative;
+}
+
+img.spotify-logo {
+  width: 300px;
+  vertical-align: middle;
+  height: 90px;
+  margin-top: 13px;
+}
+
+img.uvs-logo {
+  width: 400px;
+  vertical-align: middle;
+  float: right;
+  height: 117px;
+}
+
+div.interest {
+  background-color: #26A65B;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+div.buttons {
+  margin-top: 20px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.button {
+  color: white;
+  display: block;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.button:hover {
+  color: #26A65B;
+  background-color: white;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
