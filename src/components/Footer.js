@@ -2,7 +2,7 @@ import * as React from "react"
 import logo from "../images/kodsport.png"
 import "../styles/Footer.scss"
 
-const Navbar = () => {
+const Footer = () => {
   return (
     <footer>
       <a href="https://www.kodsport.se/">
@@ -12,4 +12,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Footer

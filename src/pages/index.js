@@ -1,11 +1,11 @@
 import * as React from "react"
-import Layout from "../components/Layout"
+import MainLayout from "../components/MainLayout"
 import hiddeninplainsight from "../images/hiddeninplainsight.png"
 import style from "../styles/Util.module.scss"
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <MainLayout>
       <h1>Lös ett CTF-problem.</h1>
       <p>Nedan kan ni testa på att lösa ett av problemen som var med i Säkerhets-SM 2020. Tips: du letar efter en sträng på formen "SSM{"{"}...{"}"}".</p>
 
@@ -17,7 +17,7 @@ const IndexPage = () => {
       <p>Tävlingen sker genom en webbplattform så man kan tävla från var som helst. Man tävlar i lag om högst 3 personer. Topplagen vinner priser. Tävlingen brukar vara runt mars.</p>
       <p>CTF-tävlingar (Capture The Flag) spelas oftast i två olika format. Attack och försvar eller Jeopardystil. Säkerhets-SM är är en tävling i Jeopardystil. Detta betyder att man i början av tävlingen får tillgång till en mängd problem och man visar att man har löst en uppgift genom att skicka in uppgiftens "flagga" till plattformen. Flaggor i den här tävlingen är textsträngar på formen "SSM{"{"}...{"}"}".</p>
       <p>Gå gärna med i <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a href="https://www.facebook.com/sakerhetssm">Facebooksida</a>!</p>
-    </Layout >
+    </MainLayout >
   )
 }
 

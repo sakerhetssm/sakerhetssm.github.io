@@ -1,13 +1,11 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import GenericNavbar from "./GenericNavbar"
 import style from "../styles/Navbar.module.scss"
-import hamburger from "../images/hamburger.svg"
 
 const Navbar = () => {
   return (
-    <nav>
-      <img src={hamburger} alt="hamburger" />
-      <input type="checkbox" />
+    <GenericNavbar>
       <ul>
         <li><Link activeClassName={style.active} to="/">Hem</Link></li>
         <li>
@@ -23,7 +21,7 @@ const Navbar = () => {
         <li><Link activeClassName={style.active} to="/about">Om</Link></li>
         <li><Link activeClassName={style.active} to="/learn">Läroresurser</Link></li>
       </ul>
-    </nav>
+    </GenericNavbar>
   )
 }
 

@@ -1,9 +1,9 @@
 import * as React from "react"
-import Layout from "../components/Layout"
+import MainLayout from "../components/MainLayout"
 
 const LearnPage = () => {
   return (
-    <Layout>
+    <MainLayout>
       <h1>Lär dig CTF</h1>
       <p>Nedan följer några bra resurser för att lära sig om CTF och IT-säkerhetstävlingar.</p>
 
@@ -58,7 +58,7 @@ const LearnPage = () => {
         <li><a href="https://pequalsnp-team.github.io/cheatsheet/steganography-101">Steganography 101</a></li>
         <li><a href="https://github.com/InfoSecIITR/reading-material">InfoSecIITR - Reading material</a></li>
       </ul>
-    </Layout>
+    </MainLayout>
   )
 }
 

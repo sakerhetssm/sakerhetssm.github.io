@@ -1,14 +1,13 @@
 import * as React from "react"
 import Header from "./Header"
-import Navbar from "./Navbar"
 import Footer from "./Footer"
 import style from "../styles/Layout.module.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, navbar }) => {
   return (
     <div className={style.container}>
       <Header />
-      <Navbar />
+      {navbar}
       <div className={style.area}>
         <main>
           {children}

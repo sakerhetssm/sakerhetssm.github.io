@@ -1,11 +1,11 @@
 import * as React from "react"
-import Layout from "../components/Layout"
+import MainLayout from "../components/MainLayout"
 import Result from "../components/Result"
 import result from "../data/result2019.json"
 
 const Ssm2019Page = () => {
   return (
-    <Layout>
+    <MainLayout>
       <h1>SSM 2019</h1>
       <h2>Lösningar</h2>
       <p><a href="https://github.com/Kodsport/sakerhetssm-2019-solutions">Här</a> finns lösningar till alla problem från tävlingen.</p>
@@ -36,7 +36,7 @@ const Ssm2019Page = () => {
 
       <h2>Sponsorer</h2>
       <p>Säkerhets-SM 2019 sponsrades av <a href="https://www.msab.com/">MSAB</a> och <a href="https://www.sakerhetspolisen.se/">Säkerhetspolisen</a>.</p>
-    </Layout>
+    </MainLayout>
   )
 }
 
