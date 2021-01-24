@@ -46,7 +46,7 @@ const IndexPage = () => {
       <p>Would you like to be a cyberdefender? <a href="https://jobb.orangecyberdefense.com/">jobb.orangecyberdefense.com</a></p>
 
       <h1>Årets affisch</h1>
-      <p>Om du är en lärare eller bara någon som vill sprida information om tävlingen kan du hitta årets affisch för utskrift <a href="/affisch.pdf">här</a>. Affischen är gjord för att skrivas ut på A3-papper.</p>
+      <p>Om du är en lärare eller bara någon som vill sprida information om tävlingen kan du hitta årets affisch för utskrift <a href="/affisch.pdf">här</a>.</p>
     </MainLayout >
   )
 }
