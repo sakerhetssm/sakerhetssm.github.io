@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 import MainLayout from "../components/MainLayout"
 import lightsout from "../images/lightsout.png"
 import style from "../styles/Util.module.scss"
@@ -17,11 +18,10 @@ const IndexPage = () => {
       <p>Gå gärna med i <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a href="https://www.facebook.com/sakerhetssm">Facebooksida</a>! Man kan också skriva upp sig på vår <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162">mailinglista</a> för att få nyheter som när registreringen för tävlingen öppnar.</p>
 
       <h1>Lös första problemet redan nu!</h1>
-      <p>Nedan kan ni testa på att lösa årets affischproblem. Problemet kommer vara med i Säkerhets-SM 2021, så om du löser det och skickar in flaggan under kvalet har du redan fått lite poäng! Hur ska knapparna stå för att lampan ska lysa? (I just den här uppgiften kommer flaggan inte att vara på formen "SSM{"{"}...{"}"}".) </p>
+      <p>Nedan kan ni testa på att lösa årets affischproblem. Problemet kommer vara med i Säkerhets-SM 2021, så om du löser det och skickar in flaggan under kvalet har du redan fått lite poäng! Hur ska knapparna stå för att lampan ska lysa? (I just den här uppgiften kommer flaggan inte att vara på formen "SSM{"{"}...{"}"}".) Psst! Om du redan nu har löst uppgiften och vill ha chans att vinna en biobiljett, <Link to="/monthly/febmar-2021/">klicka här!</Link></p>
 
       <h3>Lights out:</h3>
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={lightsout} alt="challenge" /></div>
-
 
       <h1>Huvudsponsor</h1>
       <div className={style.centerimg}><a href="https://www.sentor.se"><img style={{ maxHeight: "200px" }} src={sentorLogo} alt="challenge" /></a></div>
