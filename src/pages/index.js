@@ -7,6 +7,7 @@ import sentorLogo from "../images/sentor.png"
 import microaaLogo from "../images/microaa.png"
 import msabLogo from "../images/msab.png"
 import orangeLogo from "../images/orangecyberdefense.png"
+import venorLogo from "../images/venor.png"
 
 const IndexPage = () => {
   return (
@@ -34,26 +35,32 @@ const IndexPage = () => {
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={lightsout} alt="challenge" /></div>
 
       <h1>Huvudsponsor</h1>
-      <div className={style.centerimg}><a href="https://www.sentor.se"><img style={{ maxHeight: "200px" }} src={sentorLogo} alt="challenge" /></a></div>
+      <div className={style.centerimg}><a href="https://www.sentor.se"><img style={{ maxHeight: "200px" }} src={sentorLogo} alt="Sentor" /></a></div>
       <h3><a href="https://www.sentor.se">Sentor</a></h3>
       <p>Sentor Security är ett renodlat cybersäkerhetsföretag med över 20 års erfarenhet i branschen. På våra kontor runt om i Norden arbetar över 80 anställda dedikerat med att testa och skydda våra kunders digitala tillgångar, och tillsammans bildar vi landets största och mest erfarna samling av pentestare och säkerhetsanalytiker. <a href="https://www.sentor.se">www.sentor.se</a></p>
 
       <h1>Sponsorer</h1>
-      <div className={style.centerimg}><a href="https://www.microaalabs.se/"><img src={microaaLogo} alt="challenge" /></a></div>
+      <div className={style.centerimg}><a href="https://www.microaalabs.se/"><img src={microaaLogo} alt="MicroAA Labs" /></a></div>
       <h3><a href="https://www.microaalabs.se/">MicroAA Labs</a></h3>
       <p>För mer info, se: <a href="https://www.microaalabs.se/">www.microaalabs.se</a></p>
 
-      <div className={style.centerimg}><a href="https://www.msab.com"><img src={msabLogo} alt="challenge" /></a></div>
+      <div className={style.centerimg}><a href="https://www.msab.com"><img src={msabLogo} alt="MSAB" /></a></div>
       <h3><a href="https://www.msab.com">MSAB</a></h3>
       <p>Gör det du brinner för och bidra samtidigt till en tryggare värld – hos MSAB. Vi utvecklar ledande kriminalteknologi som används av polis, tull, militär och andra säkerhetsmyndigheter runt om i världen. Vi söker alltid efter security researchers och C#/C++ utvecklare till vårt huvudkontor centralt i Stockholm. <a href="https://www.msab.com/careers">www.msab.com/careers</a></p>
 
-      <div className={style.centerimg}><a href="https://jobb.orangecyberdefense.com/"><img src={orangeLogo} alt="challenge" /></a></div>
+      <div className={style.centerimg}><a href="https://jobb.orangecyberdefense.com/"><img src={orangeLogo} alt="Orange Cyberdefense" /></a></div>
       <h3><a href="https://jobb.orangecyberdefense.com/">Orange Cyberdefense</a></h3>
       <p>Digital freedom is not given</p>
 
       <p>At Orange Cyberdefense we believe that the Internet can remain this trusted world of leisure, professional opportunities and services provider that make everyday life easier. Our purpose is to build a safer digital society.</p>
 
       <p>Would you like to be a cyberdefender? <a href="https://jobb.orangecyberdefense.com/">jobb.orangecyberdefense.com</a></p>
+
+      <div className={style.centerimg}><a href="https://www.venor.se/"><img src={venorLogo} alt="Venor" /></a></div>
+      <h3><a href="https://www.venor.se/">Venor</a></h3>
+      <p>Venor is a defensive and a core blue team company, we focus on helping large and small organisations finding and handling adversaries in their network. This includes both proactive work or forensics after an incident has occurred.</p>
+
+      <p>In summary Venor is a company with nerdy people, focusing on technical it-security. <a href="https://www.venor.se/">www.venor.se</a></p>
 
       <h1>Årets affisch</h1>
       <p>Om du är en lärare eller bara någon som vill sprida information om tävlingen kan du hitta årets affisch för utskrift <a href="/affisch.pdf">här</a>.</p>
