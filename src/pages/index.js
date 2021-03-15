@@ -15,6 +15,9 @@ const IndexPage = () => {
       <h1>Anmälan är öppen!</h1>
       <p>Anmälan till kvalet är nu öppen. Du hittar den <a href="https://ctf.sakerhetssm.se/">här</a>.</p>
 
+      <h1>Träningstävlingen är igång!</h1>
+      <p>Träningstävlingen inför kvalet är nu igång. Du hittar den <a href="https://ctftraning.sakerhetssm.se/">här</a>.</p>
+
       <h1>Vad är Säkerhets-SM?</h1>
       <p>Säkerhets-SM är en nationell Capture The Flag tävling för gymnasiet. Tävlingen fokuserar på problemlösning inom områdena programmering, kryptografi, binär exploatering, reverse engineering, webbsäkerhet och forensik. Uppgifterna varierar från nybörjarvänliga till riktigt kluriga, så även om man aldrig deltagit i en CTF förut så kan man delta. Framför allt så lär man sig mycket av att vara med. Om man har slutat gymnasiet kan man fortfarande delta i tävlingen, men då utom tävlan.</p>
       <p>Tävlingen sker genom en webbplattform så man kan tävla från var som helst. Man tävlar i lag om högst 3 personer, och topplagen vinner priser. Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer att ske 26-28 mars, och finalen kommer att ske någon gång under maj eller juni. Båda tävlingarna kommer att vara digitala. De bästa lagen från kvalet kommer till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
