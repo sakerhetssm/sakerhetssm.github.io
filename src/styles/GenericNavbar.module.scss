@@ -10,7 +10,8 @@ nav {
 
   img {
     display: none;
-    max-height: 35px;
+    width: 35px;
+    height: 35px;
     padding: 10px 10px;
   }
 
@@ -96,6 +97,7 @@ nav {
       z-index: 2;
     }
     img {
+      margin: 0;
       position: relative;
       z-index: 1;
       display: block;
