@@ -65,7 +65,7 @@ const IndexPage = () => {
 
       <p>In summary Venor is a company with nerdy people, focusing on technical it-security. <a href="https://www.venor.se/">www.venor.se</a></p>
       <h3>Google Cloud</h3>
-      <p>Infra sponsored by <a href="g.co/cloud">g.co/cloud</a></p>
+      <p>Infra sponsored by <a href="https://g.co/cloud">g.co/cloud</a></p>
 
       <h1>Årets affisch</h1>
       <p>Om du är en lärare eller bara någon som vill sprida information om tävlingen kan du hitta årets affisch för utskrift <a href="/affisch.pdf">här</a>.</p>
