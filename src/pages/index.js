@@ -25,7 +25,7 @@ const IndexPage = () => {
       <ul>
         <li>Träningstävling: 15 mars - 21 mars</li>
         <li>Kvalet: 20:00, 26 mars - 20:00, 28 mars, 47h</li>
-        <li>Finalen: 12:00, 29 maj - 12:00, 30 maj, 24h</li>
+        <li>Finalen: 19:00, 28 maj - 17:00, 30 maj, 46h</li>
       </ul>
 
       <h1>Lös första problemet redan nu!</h1>
