@@ -12,8 +12,8 @@ import venorLogo from "../images/venor.png"
 const IndexPage = () => {
   return (
     <MainLayout>
-      <h1>Kvalet är nu över!</h1>
-      <p>Du kan se resultatet <a href="https://ctf.sakerhetssm.se/scoreboard">här</a>.</p>
+      <h1>Finalen är nu igång!</h1>
+      <p>Du hittar plattformen <a href="https://ctf.sakerhetssm.se/scoreboard">här</a>.</p>
 
       <h1>Vad är Säkerhets-SM?</h1>
       <p>Säkerhets-SM är en nationell Capture The Flag tävling för gymnasiet. Tävlingen fokuserar på problemlösning inom områdena programmering, kryptografi, binär exploatering, reverse engineering, webbsäkerhet och forensik. Uppgifterna varierar från nybörjarvänliga till riktigt kluriga, så även om man aldrig deltagit i en CTF förut så kan man delta. Framför allt så lär man sig mycket av att vara med. Om man har slutat gymnasiet kan man fortfarande delta i tävlingen, men då utom tävlan.</p>
