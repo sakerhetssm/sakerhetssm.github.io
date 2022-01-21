@@ -7,12 +7,12 @@ const Apr2021Page = () => {
       <h1>Månadens problem - Januari 2022</h1>
       <p>Onej, nåt har hänt med min fina flagga! Hjälp! <a href="/monthly/jan-2022/chall.gif">Fil</a>.</p>
 
-      {/* <details>
+      <details>
         <summary>
           Hint
         </summary>
-        <p>...</p>
-      </details> */}
+        <p><a href="https://en.wikipedia.org/wiki/GIF#Palettes">https://en.wikipedia.org/wiki/GIF#Palettes</a></p>
+      </details>
     </MonthlyLayout>
   )
 }
