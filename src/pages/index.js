@@ -17,13 +17,13 @@ const IndexPage = () => {
       <p>CTF-tävlingar (Capture The Flag) spelas oftast i två olika format. Attack och försvar eller Jeopardystil. Säkerhets-SM är är en tävling i Jeopardystil. Detta betyder att man i början av tävlingen får tillgång till en mängd problem och man visar att man har löst en uppgift genom att skicka in uppgiftens "flagga" till plattformen. Flaggor i den här tävlingen är textsträngar på formen "SSM{"{"}...{"}"}".</p>
       <p>Gå gärna med i <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a href="https://www.facebook.com/sakerhetssm">Facebooksida</a>! Man kan också skriva upp sig på vår <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162">mailinglista</a> för att få nyheter som när registreringen för tävlingen öppnar.</p>
 
-      <h1>SSM 2021</h1>
+      <h1>SSM 2022</h1>
       <p>Tävlingen sker genom en webbplattform så man kan tävla från var som helst. Man tävlar i lag om högst 3 personer, och topplagen vinner priser. Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer genomföras online och finalen kommer att hållas onsite på Chalmers, om inte pandemin stället till det. De bästa lagen från kvalet kommer till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
 
       <ul>
-        <li>Träningstävling: 15 mars - 21 mars</li>
-        <li>Kvalet: 20:00, 26 mars - 20:00, 28 mars, 47h</li>
-        <li>Finalen: 19:00, 28 maj - 17:00, 30 maj, 46h</li>
+        <li>Träningstävling: 14 mars - 20 mars</li>
+        <li>Kvalet: 25 mars 20:00 - 27 mars 20:00, 47 timmar (ställer om till sommartid)</li>
+        <li>Finalen: 27 maj - 29 maj</li>
       </ul>
 
       <h1>Testa att lösa ett CTF-problem!</h1>
