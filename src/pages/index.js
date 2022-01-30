@@ -4,7 +4,7 @@ import MainLayout from "../components/MainLayout"
 import lightsout from "../images/lightsout.png"
 import style from "../styles/Util.module.scss"
 import sentorLogo from "../images/sentor.png"
-import microaaLogo from "../images/microaa.png"
+import cpartaLogo from "../images/cparta.jpg"
 import msabLogo from "../images/msab.png"
 import orangeLogo from "../images/orangecyberdefense.png"
 import venorLogo from "../images/venor.png"
@@ -38,13 +38,18 @@ const IndexPage = () => {
       <p>Sentor Security är ett renodlat cybersäkerhetsföretag med över 20 års erfarenhet i branschen. På våra kontor runt om i Norden arbetar över 80 anställda dedikerat med att testa och skydda våra kunders digitala tillgångar, och tillsammans bildar vi landets största och mest erfarna samling av pentestare och säkerhetsanalytiker. <a href="https://www.sentor.se">www.sentor.se</a></p>
 
       <h1>Sponsorer</h1>
-      <div className={style.centerimg}><a href="https://www.microaalabs.se/"><img src={microaaLogo} alt="MicroAA Labs" /></a></div>
-      <h3><a href="https://www.microaalabs.se/">MicroAA Labs</a></h3>
-      <p>För mer info, se: <a href="https://www.microaalabs.se/">www.microaalabs.se</a></p>
+      <div className={style.centerimg}><a href="https://cparta.se/">
+        <img src={cpartaLogo} alt="Cparta"
+          // Fulhack för att de inte har någon padding i sin bild...
+          style={{border: "20px solid black"}}
+        />
+      </a></div>
+      <h3><a href="https://cparta.se/">Cparta</a></h3>
+      <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. By combining expertise, innovation and dedication, we are protecting our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
 
       <div className={style.centerimg}><a href="https://www.msab.com"><img src={msabLogo} alt="MSAB" /></a></div>
       <h3><a href="https://www.msab.com">MSAB</a></h3>
-      <p>Gör det du brinner för och bidra samtidigt till en tryggare värld – hos MSAB. Vi utvecklar ledande kriminalteknologi som används av polis, tull, militär och andra säkerhetsmyndigheter runt om i världen. Vi söker alltid efter security researchers och C#/C++ utvecklare till vårt huvudkontor centralt i Stockholm. <a href="https://www.msab.com/careers">www.msab.com/careers</a></p>
+      <p>Gör det du brinner för och bidra samtidigt till en säkrare värld – hos MSAB. Vi utvecklar ledande kriminalteknologi som används av polis, tull, militär och andra rättsvårdande myndigheter runt om i världen. Vi söker alltid efter security researchers och C#/C++ utvecklare till vårt huvudkontor, centralt beläget i Stockholm. <a href="https://www.msab.com/careers">www.msab.com/careers</a></p>
 
       <div className={style.centerimg}><a href="https://jobb.orangecyberdefense.com/"><img src={orangeLogo} alt="Orange Cyberdefense" /></a></div>
       <h3><a href="https://jobb.orangecyberdefense.com/">Orange Cyberdefense</a></h3>
