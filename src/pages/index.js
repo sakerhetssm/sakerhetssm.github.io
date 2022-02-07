@@ -50,10 +50,10 @@ const IndexPage = () => {
 
       <h1>Sponsorer</h1>
       <div className={Sponsor.logo}><a href="https://cparta.se/">
-        <img src={cpartaLogo} alt="Cparta"
-          // Fulhack för att de inte har någon padding i sin bild...
-          style={{border: "20px solid black", boxSizing: "border-box"}}
-        />
+        <img src={cpartaLogo} alt="Cparta" style={{
+          /* Fulhack för att de inte har någon padding i sin bild... */
+          border: "20px solid black", boxSizing: "border-box"
+        }}/>
       </a></div>
       <h3><a href="https://cparta.se/">Cparta</a></h3>
       <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. By combining expertise, innovation and dedication, we are protecting our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
