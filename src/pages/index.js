@@ -41,7 +41,7 @@ const IndexPage = () => {
       <div className={style.centerimg}><a href="https://cparta.se/">
         <img src={cpartaLogo} alt="Cparta"
           // Fulhack för att de inte har någon padding i sin bild...
-          style={{border: "20px solid black"}}
+          style={{border: "20px solid black", boxSizing: "border-box"}}
         />
       </a></div>
       <h3><a href="https://cparta.se/">Cparta</a></h3>
