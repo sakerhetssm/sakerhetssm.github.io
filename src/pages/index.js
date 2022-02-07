@@ -34,7 +34,17 @@ const IndexPage = () => {
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={lightsout} alt="challenge" /></div>
 
       <h1>Huvudsponsor</h1>
-      <div className={Sponsor.logo}><a href="https://www.sentor.se"><img style={{ maxHeight: "200px" }} src={sentorLogo} alt="Sentor" /></a></div>
+      <div className={Sponsor.logo}><a href="https://www.sentor.se"><img style=
+        {{
+          /* the main sponsor gets a bigger logo */
+          maxHeight: "350px",
+          maxWidth: "100%",
+          /* the style after this is to get rid */
+          /* of the excesive padding of the logo from Sentor */
+          objectFit: "cover",
+          objectPosition: "center",
+          width: "900px"
+        }} src={sentorLogo} alt="Sentor" /></a></div>
       <h3><a href="https://www.sentor.se">Sentor</a></h3>
       <p>Sentor Security är ett renodlat cybersäkerhetsföretag med över 20 års erfarenhet i branschen. På våra kontor runt om i Norden arbetar över 80 anställda dedikerat med att testa och skydda våra kunders digitala tillgångar, och tillsammans bildar vi landets största och mest erfarna samling av pentestare och säkerhetsanalytiker. <a href="https://www.sentor.se">www.sentor.se</a></p>
 
