@@ -72,7 +72,7 @@ const IndexPage = () => {
 
       <div className={Sponsor.logo}><a href="https://www.venor.se/"><img src={venorLogo} alt="Venor" /></a></div>
       <h3><a href="https://www.venor.se/">Venor</a></h3>
-      <p>Venor is a defensive and a core blue team company, we focus on helping large and small organisations finding and handling adversaries in their network. This includes both proactive work or forensics after an incident has occurred.</p>
+      <p>Venor is a defensive and a core blue team company, we focus on helping large and small organisations finding and handling adversaries in their network. This includes proactive work, active monitoring or forensics after an incident has occurred.</p>
 
       <p>In summary Venor is a company with nerdy people, focusing on technical it-security. <a href="https://www.venor.se/">www.venor.se</a></p>
       <h3>Google Cloud</h3>
