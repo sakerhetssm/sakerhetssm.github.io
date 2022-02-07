@@ -58,6 +58,10 @@ const IndexPage = () => {
       <h3><a href="https://cparta.se/">Cparta</a></h3>
       <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. By combining expertise, innovation and dedication, we are protecting our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
 
+      <div className={Sponsor.logo}><a href="https://www.foi.se"><img src={msabLogo} alt="FOI" /></a></div>
+      <h3><a href="https://www.foi.se">FOI</a></h3>
+      <p>FOI (Totalförsvarets forskningsinstitut) utvecklar kunskap och ger stöd för att förbättra Sveriges cyberförsvar. Vår verksamhet berör bland annat säkerhet i industriella styrsystem, informationssäkerhetskultur, värdering av säkerheten i tekniska system, bedömning av informationssäkerhetsrisker, genomförande av cyberoperationer och verktyg för att genomföra cybersäkerhetsövningar. <a href="https://www.foi.se">www.foi.se</a></p>
+
       <div className={Sponsor.logo}><a href="https://www.msab.com"><img src={msabLogo} alt="MSAB" /></a></div>
       <h3><a href="https://www.msab.com">MSAB</a></h3>
       <p>Gör det du brinner för och bidra samtidigt till en säkrare värld – hos MSAB. Vi utvecklar ledande kriminalteknologi som används av polis, tull, militär och andra rättsvårdande myndigheter runt om i världen. Vi söker alltid efter security researchers och C#/C++ utvecklare till vårt huvudkontor, centralt beläget i Stockholm. <a href="https://www.msab.com/careers">www.msab.com/careers</a></p>
