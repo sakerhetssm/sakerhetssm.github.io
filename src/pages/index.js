@@ -1,8 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import MainLayout from "../components/MainLayout"
-import lightsout from "../images/lightsout.png"
+import Sponsor from "../styles/Sponsor.module.scss"
 import style from "../styles/Util.module.scss"
+import lightsout from "../images/lightsout.png"
 import sentorLogo from "../images/sentor.png"
 import cpartaLogo from "../images/cparta.jpg"
 import msabLogo from "../images/msab.png"
@@ -33,12 +34,12 @@ const IndexPage = () => {
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={lightsout} alt="challenge" /></div>
 
       <h1>Huvudsponsor</h1>
-      <div className={style.centerimg}><a href="https://www.sentor.se"><img style={{ maxHeight: "200px" }} src={sentorLogo} alt="Sentor" /></a></div>
+      <div className={Sponsor.logo}><a href="https://www.sentor.se"><img style={{ maxHeight: "200px" }} src={sentorLogo} alt="Sentor" /></a></div>
       <h3><a href="https://www.sentor.se">Sentor</a></h3>
       <p>Sentor Security är ett renodlat cybersäkerhetsföretag med över 20 års erfarenhet i branschen. På våra kontor runt om i Norden arbetar över 80 anställda dedikerat med att testa och skydda våra kunders digitala tillgångar, och tillsammans bildar vi landets största och mest erfarna samling av pentestare och säkerhetsanalytiker. <a href="https://www.sentor.se">www.sentor.se</a></p>
 
       <h1>Sponsorer</h1>
-      <div className={style.centerimg}><a href="https://cparta.se/">
+      <div className={Sponsor.logo}><a href="https://cparta.se/">
         <img src={cpartaLogo} alt="Cparta"
           // Fulhack för att de inte har någon padding i sin bild...
           style={{border: "20px solid black", boxSizing: "border-box"}}
@@ -47,11 +48,11 @@ const IndexPage = () => {
       <h3><a href="https://cparta.se/">Cparta</a></h3>
       <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. By combining expertise, innovation and dedication, we are protecting our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
 
-      <div className={style.centerimg}><a href="https://www.msab.com"><img src={msabLogo} alt="MSAB" /></a></div>
+      <div className={Sponsor.logo}><a href="https://www.msab.com"><img src={msabLogo} alt="MSAB" /></a></div>
       <h3><a href="https://www.msab.com">MSAB</a></h3>
       <p>Gör det du brinner för och bidra samtidigt till en säkrare värld – hos MSAB. Vi utvecklar ledande kriminalteknologi som används av polis, tull, militär och andra rättsvårdande myndigheter runt om i världen. Vi söker alltid efter security researchers och C#/C++ utvecklare till vårt huvudkontor, centralt beläget i Stockholm. <a href="https://www.msab.com/careers">www.msab.com/careers</a></p>
 
-      <div className={style.centerimg}><a href="https://jobb.orangecyberdefense.com/"><img src={orangeLogo} alt="Orange Cyberdefense" /></a></div>
+      <div className={Sponsor.logo}><a href="https://jobb.orangecyberdefense.com/"><img src={orangeLogo} alt="Orange Cyberdefense" /></a></div>
       <h3><a href="https://jobb.orangecyberdefense.com/">Orange Cyberdefense</a></h3>
       <p>Digital freedom is not given</p>
 
@@ -59,7 +60,7 @@ const IndexPage = () => {
 
       <p>Would you like to be a cyberdefender? <a href="https://jobb.orangecyberdefense.com/">jobb.orangecyberdefense.com</a></p>
 
-      <div className={style.centerimg}><a href="https://www.venor.se/"><img src={venorLogo} alt="Venor" /></a></div>
+      <div className={Sponsor.logo}><a href="https://www.venor.se/"><img src={venorLogo} alt="Venor" /></a></div>
       <h3><a href="https://www.venor.se/">Venor</a></h3>
       <p>Venor is a defensive and a core blue team company, we focus on helping large and small organisations finding and handling adversaries in their network. This includes both proactive work or forensics after an incident has occurred.</p>
 
