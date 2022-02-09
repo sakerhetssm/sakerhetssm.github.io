@@ -6,6 +6,7 @@ import style from "../styles/Util.module.scss"
 import lightsout from "../images/lightsout.png"
 import sentorLogo from "../images/sentor.png"
 import cpartaLogo from "../images/cparta.jpg"
+import foiLogo from "../images/foi.png"
 import msabLogo from "../images/msab.png"
 import orangeLogo from "../images/orangecyberdefense.png"
 import venorLogo from "../images/venor.png"
@@ -58,7 +59,7 @@ const IndexPage = () => {
       <h3><a href="https://cparta.se/">Cparta</a></h3>
       <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. By combining expertise, innovation and dedication, we are protecting our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
 
-      <div className={Sponsor.logo}><a href="https://www.foi.se"><img src={msabLogo} alt="FOI" /></a></div>
+      <div className={Sponsor.logo}><a href="https://www.foi.se"><img src={foiLogo} alt="FOI" /></a></div>
       <h3><a href="https://www.foi.se">FOI</a></h3>
       <p>FOI (Totalförsvarets forskningsinstitut) utvecklar kunskap och ger stöd för att förbättra Sveriges cyberförsvar. Vår verksamhet berör bland annat säkerhet i industriella styrsystem, informationssäkerhetskultur, värdering av säkerheten i tekniska system, bedömning av informationssäkerhetsrisker, genomförande av cyberoperationer och verktyg för att genomföra cybersäkerhetsövningar. <a href="https://www.foi.se">www.foi.se</a></p>
 
