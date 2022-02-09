@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import MainLayout from "../components/MainLayout"
 import Sponsor from "../styles/Sponsor.module.scss"
 import style from "../styles/Util.module.scss"
-import lightsout from "../images/lightsout.png"
+import svinstian from "../images/svinstian.png"
 import sentorLogo from "../images/sentor.png"
 import cpartaLogo from "../images/cparta.jpg"
 import foiLogo from "../images/foi.png"
@@ -28,11 +28,11 @@ const IndexPage = () => {
         <li>Finalen: 27 maj - 29 maj</li>
       </ul>
 
-      <h1>Testa att lösa ett CTF-problem!</h1>
-      <p>Nedan kan ni testa på att lösa årets affischproblem. Problemet var med i Säkerhets-SM 2021. Hur ska knapparna stå för att lampan ska lysa? (I just den här uppgiften kommer flaggan inte att vara på formen "SSM{"{"}...{"}"}".)</p>
+      <h1>Lös första problemet redan nu!</h1>
 
-      <h3>Lights out:</h3>
-      <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={lightsout} alt="challenge" /></div>
+      <h3>Svinstian</h3>
+      <p>Nu har någon varit och kladdat på svinstian, men vad är det egentligen de har skrivit?</p>
+      <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={svinstian} alt="challenge" /></div>
 
       <h1>Huvudsponsor</h1>
       <div className={Sponsor.logo}><a href="https://www.sentor.se"><img style=
