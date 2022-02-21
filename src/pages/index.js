@@ -20,7 +20,7 @@ const IndexPage = () => {
       <p>Gå gärna med i <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a href="https://www.facebook.com/sakerhetssm">Facebooksida</a>! Man kan också skriva upp sig på vår <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162">mailinglista</a> för att få nyheter som när registreringen för tävlingen öppnar.</p>
 
       <h1>SSM 2022</h1>
-      <p>Tävlingen sker genom en webbplattform så man kan tävla från var som helst. Man tävlar i lag om högst 3 personer, och topplagen vinner priser. Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer genomföras online och finalen kommer att hållas onsite på Chalmers, om inte pandemin stället till det. De bästa lagen från kvalet kommer till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
+      <p>Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer genomföras online via vår webbplattform, så man kan tävla från var som helst. Finalen kommer att hållas onsite på Chalmers, om inte pandemin stället till det. Man tävlar i lag om högst 3 personer och de bästa lagen från kvalet går vidare till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
 
       <ul>
         <li>Träningstävling: 14 mars - 20 mars</li>
