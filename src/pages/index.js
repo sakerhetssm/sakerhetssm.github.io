@@ -33,6 +33,7 @@ const IndexPage = () => {
       <h3>Svinstian</h3>
       <p>Nu har någon varit och kladdat på svinstian, men vad är det egentligen de har skrivit?</p>
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={svinstian} alt="challenge" /></div>
+      <p><a href="https://sakerhetssm.se/monthly/febmar-2022/">Skicka in svaret</a> för att delta i utlottningen av biobiljetter!</p>
 
       <h1>Huvudsponsor</h1>
       <div className={Sponsor.logo}><a href="https://www.sentor.se"><img style=
