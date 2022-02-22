@@ -28,6 +28,8 @@ const IndexPage = () => {
         <li>Finalen: 27 maj - 29 maj</li>
       </ul>
 
+      <p>Registrera ditt lag på <a href="https://ctf.sakerhetssm.se">plattformen för kvalet</a>!</p>
+
       <h1>Lös första problemet redan nu!</h1>
 
       <h3>Svinstian</h3>
