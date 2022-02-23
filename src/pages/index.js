@@ -60,7 +60,7 @@ const IndexPage = () => {
         }}/>
       </a></div>
       <h3><a href="https://cparta.se/">Cparta</a></h3>
-      <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. By combining expertise, innovation and dedication, we are protecting our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
+      <p>Cparta is a company dedicated to protecting Swedish commercial interests by providing tailored cyber security services. We combine expertise, innovation, and dedication to secure our client&#39;s digital integrity. <a href="https://www.cparta.se/">www.cparta.se</a></p>
 
       <div className={Sponsor.logo}><a href="https://www.foi.se"><img src={foiLogo} alt="FOI" /></a></div>
       <h3><a href="https://www.foi.se">FOI</a></h3>
