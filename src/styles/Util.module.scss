@@ -6,3 +6,19 @@
     max-width: 100%;
   }
 }
+
+.reg_button_container {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reg_button {
+  padding: 0.6rem 1rem;
+  font-size: 2rem;
+  color: #ffab1c;
+	border-radius: .2rem;
+	border-width: 0;
+	background-color: #002c36;
+	cursor: pointer;
+}

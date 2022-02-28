@@ -14,11 +14,6 @@ import venorLogo from "../images/venor.png"
 const IndexPage = () => {
   return (
     <MainLayout>
-      <h1>Vad är Säkerhets-SM?</h1>
-      <p>Säkerhets-SM är en nationell Capture The Flag tävling för gymnasiet. Tävlingen fokuserar på problemlösning inom områdena programmering, kryptografi, binär exploatering, reverse engineering, webbsäkerhet och forensik. Uppgifterna varierar från nybörjarvänliga till riktigt kluriga, så även om man aldrig deltagit i en CTF förut så kan man delta. Framför allt så lär man sig mycket av att vara med. Om man har slutat gymnasiet kan man fortfarande delta i tävlingen, men då utom tävlan.</p>
-      <p>CTF-tävlingar (Capture The Flag) spelas oftast i två olika format. Attack och försvar eller Jeopardystil. Säkerhets-SM är är en tävling i Jeopardystil. Detta betyder att man i början av tävlingen får tillgång till en mängd problem och man visar att man har löst en uppgift genom att skicka in uppgiftens "flagga" till plattformen. Flaggor i den här tävlingen är textsträngar på formen "SSM{"{"}...{"}"}".</p>
-      <p>Gå gärna med i <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a href="https://www.facebook.com/sakerhetssm">Facebooksida</a>! Man kan också skriva upp sig på vår <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162">mailinglista</a> för att få nyheter som när registreringen för tävlingen öppnar.</p>
-
       <h1>SSM 2022</h1>
       <p>Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer genomföras online via vår webbplattform, så man kan tävla från var som helst. Finalen kommer att hållas onsite på Chalmers, om inte pandemin stället till det. Man tävlar i lag om högst 3 personer och de bästa lagen från kvalet går vidare till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
 
@@ -28,7 +23,11 @@ const IndexPage = () => {
         <li>Finalen: 27 maj - 29 maj</li>
       </ul>
 
-      <p>Registrera ditt lag på <a href="https://ctf.sakerhetssm.se">plattformen för kvalet</a>!</p>
+      <div className={style.reg_button_container}>
+        <a href="https://ctf.sakerhetssm.se/signin" className={style.reg_button}>
+          Registrera dig!
+        </a>
+      </div>
 
       <h1>Lös första problemet redan nu!</h1>
 
@@ -36,6 +35,11 @@ const IndexPage = () => {
       <p>Nu har någon varit och kladdat på svinstian, men vad är det egentligen de har skrivit?</p>
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={svinstian} alt="challenge" /></div>
       <p><a href="https://sakerhetssm.se/monthly/febmar-2022/">Skicka in svaret</a> för att delta i utlottningen av biobiljetter!</p>
+      
+      <h1>Vad är Säkerhets-SM?</h1>
+      <p>Säkerhets-SM är en nationell Capture The Flag tävling för gymnasiet. Tävlingen fokuserar på problemlösning inom områdena programmering, kryptografi, binär exploatering, reverse engineering, webbsäkerhet och forensik. Uppgifterna varierar från nybörjarvänliga till riktigt kluriga, så även om man aldrig deltagit i en CTF förut så kan man delta. Framför allt så lär man sig mycket av att vara med. Om man har slutat gymnasiet kan man fortfarande delta i tävlingen, men då utom tävlan.</p>
+      <p>CTF-tävlingar (Capture The Flag) spelas oftast i två olika format. Attack och försvar eller Jeopardystil. Säkerhets-SM är är en tävling i Jeopardystil. Detta betyder att man i början av tävlingen får tillgång till en mängd problem och man visar att man har löst en uppgift genom att skicka in uppgiftens "flagga" till plattformen. Flaggor i den här tävlingen är textsträngar på formen "SSM{"{"}...{"}"}".</p>
+      <p>Gå gärna med i <a href="https://discord.gg/edKFKKU">Kodsports Discordserver</a> för diskussion om tävlingen. Gilla vår <a href="https://www.facebook.com/sakerhetssm">Facebooksida</a>! Man kan också skriva upp sig på vår <a href="https://cdn.forms-content.sg-form.com/338d60af-6184-11eb-8f8c-86607a56e162">mailinglista</a> för att få nyheter som när registreringen för tävlingen öppnar.</p>
 
       <h1>Huvudsponsor</h1>
       <div className={Sponsor.logo}><a href="https://www.sentor.se"><img style=
