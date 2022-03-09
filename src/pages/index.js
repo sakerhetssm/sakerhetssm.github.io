@@ -35,7 +35,10 @@ const IndexPage = () => {
       <p>Nu har någon varit och kladdat på svinstian, men vad är det egentligen de har skrivit?</p>
       <div className={style.centerimg}><img style={{ maxHeight: "300px" }} src={svinstian} alt="challenge" /></div>
       <p><a href="https://sakerhetssm.se/monthly/febmar-2022/">Skicka in svaret</a> för att delta i utlottningen av biobiljetter!</p>
-      
+
+      <h1>ECSC 2022</h1>
+      <p>EU:s cybersäkerhetsbyrå anordnar sedan ett par år tillbaka en europeisk cybersäkerhetstävling, <a href="https://ecsc.eu/">ECSC</a> (European Cybersecurity Challenge). I år ska Sverige skicka ett lag och Säkerhets-SM är en del av uttagningen! De 5-10 deltagare som presterar bäst i finalen kommer bjudas in till en bootcamp där det slutliga laget väljs ut. På <a href="https://www.kth.se/ecsc">KTH:s hemsida</a> finns mer information om uttagningen för både juniorer och seniorer, bootcamp samt en mailinglista där man kan registrera sig för att få information.</p>
+
       <h1>Vad är Säkerhets-SM?</h1>
       <p>Säkerhets-SM är en nationell Capture The Flag tävling för gymnasiet. Tävlingen fokuserar på problemlösning inom områdena programmering, kryptografi, binär exploatering, reverse engineering, webbsäkerhet och forensik. Uppgifterna varierar från nybörjarvänliga till riktigt kluriga, så även om man aldrig deltagit i en CTF förut så kan man delta. Framför allt så lär man sig mycket av att vara med. Om man har slutat gymnasiet kan man fortfarande delta i tävlingen, men då utom tävlan.</p>
       <p>CTF-tävlingar (Capture The Flag) spelas oftast i två olika format. Attack och försvar eller Jeopardystil. Säkerhets-SM är är en tävling i Jeopardystil. Detta betyder att man i början av tävlingen får tillgång till en mängd problem och man visar att man har löst en uppgift genom att skicka in uppgiftens "flagga" till plattformen. Flaggor i den här tävlingen är textsträngar på formen "SSM{"{"}...{"}"}".</p>
