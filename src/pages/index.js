@@ -91,7 +91,7 @@ const IndexPage = () => {
 
       <p>In summary Venor is a company with nerdy people, focusing on technical it-security. <a href="https://www.venor.se/">www.venor.se</a></p>
       <h3>Google Cloud</h3>
-      <p>Infra sponsored by <a href="https://g.co/cloud">g.co/cloud</a></p>
+      <p>Infra sponsored by <a href="https://goo.gle/ctfsponsorship">goo.gle/ctfsponsorship</a></p>
     </MainLayout >
   )
 }
