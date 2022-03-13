@@ -15,7 +15,7 @@ const IndexPage = () => {
   return (
     <MainLayout>
       <h1>SSM 2022</h1>
-      <p>Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer genomföras online via vår webbplattform, så man kan tävla från var som helst. Finalen kommer att hållas onsite på Chalmers, om inte pandemin stället till det. Man tävlar i lag om högst 3 personer och de bästa lagen från kvalet går vidare till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
+      <p>Årets tävling kommer att bestå av två delar, ett kval och en final. Kvalet kommer genomföras online via vår webbplattform, så man kan tävla från var som helst. Finalen kommer att hållas onsite på Chalmers, om inte pandemin ställer till det. Man tävlar i lag om högst 3 personer och de bästa lagen från kvalet går vidare till finalen. Vi kommer även att hålla en träningstävling en vecka innan kvalet med uppgifter från tidigare år.</p>
 
       <ul>
         <li>Träningstävling: 14 mars - 20 mars</li>
