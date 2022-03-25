@@ -15,7 +15,10 @@ export default function HTML(props) {
         />
         <title>{title}</title>
         <meta name="image" content={seoImage} />
+        <meta property="og:title" content={title} />
         <meta property="og:image" content={seoImage} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sakerhetssm.se/" />
         <meta name="twitter:image" content={seoImage} />
         {props.headComponents}
       </head>
