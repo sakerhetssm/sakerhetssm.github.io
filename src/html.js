@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 
 export default function HTML(props) {
   const seoImage = "https://sakerhetssm.se/images/logo.png"
+  const title = "Säkerhets-SM"
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -12,6 +13,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <title>{title}</title>
         <meta name="image" content={seoImage} />
         <meta property="og:image" content={seoImage} />
         <meta name="twitter:image" content={seoImage} />
