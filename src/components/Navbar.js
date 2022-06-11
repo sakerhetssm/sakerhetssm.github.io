@@ -12,6 +12,7 @@ const Navbar = () => {
           <input type="checkbox" />
           <p>Tidigare år</p>
           <ul>
+            <li><Link activeClassName={style.active} to="/ssm2022">2022</Link></li>
             <li><Link activeClassName={style.active} to="/ssm2021">2021</Link></li>
             <li><a href="/halloween2020/">Halloween 2020</a></li>
             <li><Link activeClassName={style.active} to="/ssm2020">2020</Link></li>
